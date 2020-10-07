@@ -9,11 +9,11 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #F5F5F5
-  background: #e6e9e2 !important;
+  background: #e6e9e2;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFF;
+  background-color: #DDDDDD;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,16 +65,16 @@ a:focus {
 
 a.btn-cta-primary, .btn-cta-primary {
   background: #4c4c4e;
-  border: 1px solid #EBD1BA;
+  border: 1px solid #4c4c4e;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
-  color: #fff;
+  background: #EBD1BA;
+  border: 1px solid #EBD1BA;
+  color: #4c4c4e;
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
@@ -126,6 +126,7 @@ a.dotted-link:hover {
 .header {
   padding: 30px 0;
   background: #CE8483;
+  font-family: "Didot", serif;
 /*  border-top: 10px solid #778492; */
 }
 
@@ -193,7 +194,7 @@ a.dotted-link:hover {
 .section .section-inner {
   background: #fff;
   padding: 30px;
-  background-color:  #d1d1cf;
+  background-color: #fff; /* #d1d1cf; */
 }
 
 .section .heading {
